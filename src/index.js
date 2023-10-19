@@ -1,3 +1,5 @@
-import { loadContent } from './content.service';
+import { loadNavigationBar } from './navigation.service';
+import { loadHome } from './home.service';
 
-const newContent = loadContent();
+const navBar = loadNavigationBar();
+const newContent = loadHome();

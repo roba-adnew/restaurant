@@ -1,6 +1,6 @@
 import Restaurant from './empanada.png';
 
-export const loadContent = () => {
+export const loadHome = () => {
 
     const content = document.getElementById('content');
 
